@@ -1,0 +1,23 @@
+body {
+  background-color: #f4f6ff;
+  font-family: montserrat;
+}
+
+hr {
+  background-color: #f4f6ff;
+  border-style: none;
+  border-top: dotted 6px #10375c;
+  width: 10%;
+}
+
+h1 {
+  color: #10375c;
+}
+
+h3 {
+  color: #127681;
+}
+
+#top-page{
+  background-color: #f3c623;
+}

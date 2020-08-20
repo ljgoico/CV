@@ -6,18 +6,46 @@ body {
 hr {
   background-color: #f4f6ff;
   border-style: none;
-  border-top: dotted 6px #10375c;
+  border-top: dotted 6px #f3c623;
   width: 10%;
 }
 
 h1 {
-  color: #10375c;
+  color: #f3c623;
 }
 
 h3 {
   color: #127681;
 }
 
-#top-page{
+p {
+  color: white;
+}
+
+.blue-shadow {
+  color: #f3c623;
+  text-shadow: #127681 2px 2px 2px;
+}
+
+.top-page {
+  background-color: #10375c;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.button-color {
   background-color: #f3c623;
+  color: #10375c;
+}
+
+.blue-back {
+  background-color: #10375c;
+  color: #f3c623;
+}
+
+.img-resize {
+  width:10%;
+  height:10%;
 }

@@ -1,3 +1,5 @@
+/************************************ TAG SELECTORS ************************************/
+
 body {
   background-color: #f4f6ff;
   font-family: montserrat;
@@ -22,23 +24,32 @@ p {
   color: white;
 }
 
+
+/************************************ CLASS SELECTORS ************************************/
+
 .blue-shadow {
   color: #f3c623;
   text-shadow: #127681 2px 2px 2px;
 }
 
 .top-page {
-  background-color: #10375c;
+  background: linear-gradient(35deg, #10375c, #127681)
 }
 
 .center-text {
   text-align: center;
 }
 
-.button-color {
+.button {
   background-color: #f3c623;
+  border-radius: 10px;
   color: #10375c;
-  border-radius: 10px
+}
+
+.button:hover{
+  background-color: #127681;
+  color: white;
+  transform: scale(1.1);
 }
 
 .blue-back {
@@ -47,11 +58,16 @@ p {
 }
 
 .img-resize {
-  width:10%;
   height:10%;
+  width:10%;
 }
 
 .table-style {
   background-color: #10375c;
   color: #f3c623;
+}
+
+.profile-pic {
+    border: 10px solid #f3c623;
+    border-radius: 50%;
 }

@@ -27,47 +27,84 @@ p {
 
 /************************************ CLASS SELECTORS ************************************/
 
+.blue-back {
+  background: linear-gradient(35deg, #10375c, #127681);
+  color: #f3c623;
+  border-radius: 5px;
+  padding: 2;
+}
+
 .blue-shadow {
   color: #f3c623;
   text-shadow: #127681 2px 2px 2px;
 }
 
-.top-page {
-  background: linear-gradient(35deg, #10375c, #127681)
-}
-
-.center-text {
-  text-align: center;
-}
-
 .button {
   background-color: #f3c623;
+  border: 1px solid #f3c623;
   border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
   color: #10375c;
+  padding: 3px;
+  transition-duration: 0.2s;
+  width: 10%;
 }
 
 .button:hover{
   background-color: #127681;
   color: white;
   transform: scale(1.1);
+  border: 1px solid #127681;
 }
 
-.blue-back {
-  background-color: #10375c;
-  color: #f3c623;
+.button-menu {
+  background-color: #f3c623;
+  border: 1px solid #f3c623;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+  color: #10375c;
+  font-family: montserrat;
+  padding: 7px;
+  transition-duration: 0.2s;
 }
+
+.button-menu:hover{
+  background-color: #127681;
+  color: white;
+  transform: scale(1.1);
+  border: 1px solid #127681;
+}
+
+.center-text {
+  text-align: center;
+}
+
 
 .img-resize {
   height:10%;
   width:10%;
 }
 
-.table-style {
-  background-color: #10375c;
-  color: #f3c623;
+.img-resize2 {
+  height:75%;
+  width:75%;
+}
+
+.linkedin-border:hover {
+  border: 5px solid #f3c623;
+  border-radius: 50%;
 }
 
 .profile-pic {
     border: 10px solid #f3c623;
     border-radius: 50%;
+}
+
+.table-style {
+  background: linear-gradient(35deg, #10375c, #127681);
+  color: #f3c623;
+}
+
+.top-page {
+  background: linear-gradient(35deg, #10375c, #127681);
 }
